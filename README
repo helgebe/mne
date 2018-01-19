@@ -1,0 +1,30 @@
+dependencies:
+couchdb
+nano (couchdb driver for node/express)
+npm install request -g
+npm install express-generator -g
+
+dev env dependencies:
+npm install nodemon
+eslint
+npm install eslint --save-dev
+.eslintrc fra https://github.com/expressjs/express/blob/master/.eslintrc for å ha noe å starte med
+
+
+
+misc:
+.gitignore
+
+setup+run
+express --view=ejs mne (ny app)
+cd mne; npm install
+
+$ DEBUG=mne:* npm start
+On Windows, use this command:
+> set DEBUG=mne:* & npm start
+
+
+todo:
+auto build
+
+react (redux?)
